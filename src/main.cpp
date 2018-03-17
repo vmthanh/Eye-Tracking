@@ -23,13 +23,16 @@
 using namespace dlib;
 using namespace std;
 
-void preprocessROI(cv::Mat& roi_eye) {
-    GaussianBlur(roi_eye, roi_eye, cv::Size(3,3), 0, 0);
-    equalizeHist( roi_eye, roi_eye );
+void preprocessROI(cv::Mat &roi_eye)
+{
+    GaussianBlur(roi_eye, roi_eye, cv::Size(3, 3), 0, 0);
+    equalizeHist(roi_eye, roi_eye);
 }
 
-int main(int argc, char** argv) {
-    try {
+int main(int argc, char **argv)
+{
+    try
+    {
         cv::VideoCapture cap(0);
         image_window win1, win2;
 
@@ -48,8 +51,9 @@ int main(int argc, char** argv) {
         cv::Point pt_p_pos_l(0, 0), pt_p_pos_r(0, 0);
 
         cv::Mat frame, frame_clr, temp1, temp2, temp3, roi_l_clr, roi_r_clr, roi_l_gray, roi_r_gray;
-        
-        while(!win.is_closed()) {
+
+        while (!win.is_closed())
+        {
             cap >> frame_clr;
 
             cv::flip(frame_clr, frame_clr, 1);
@@ -60,14 +64,14 @@ int main(int argc, char** argv) {
             vector<rectangle> faces = detector(cimg_gray);
             vector<full_object_detection> shapes;
 
-            for(unsigned long i = 0; i < (int) faces.size(); ++i)
+            for (unsigned long i = 0; i < (int)faces.size(); ++i)
                 faces.push_back(pose_model(cimg_gray, faces[i]));
 
-            if(shapes.size() == 0) cout<<"Zero faces"<<endl;
-            else {
-                
+            if (shapes.size() == 0)
+                cout << "Zero faces" << endl;
+            else
+            {
             }
         }
-
     }
 }

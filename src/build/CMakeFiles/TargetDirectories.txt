@@ -1,6 +1,6 @@
-/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/edit_cache.dir
-/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/rebuild_cache.dir
-/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/eyeGaze.dir
-/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/dlib_build/CMakeFiles/edit_cache.dir
-/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/dlib_build/CMakeFiles/rebuild_cache.dir
-/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/dlib_build/CMakeFiles/dlib.dir
+/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/edit_cache.dir
+/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/rebuild_cache.dir
+/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/eyeGaze.dir
+/home/thanhvo/Documents/Eye-Tracking/src/build/dlib_build/CMakeFiles/edit_cache.dir
+/home/thanhvo/Documents/Eye-Tracking/src/build/dlib_build/CMakeFiles/rebuild_cache.dir
+/home/thanhvo/Documents/Eye-Tracking/src/build/dlib_build/CMakeFiles/dlib.dir

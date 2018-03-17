@@ -1,4 +1,4 @@
-# Install script for directory: /home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/dlib/dlib
+# Install script for directory: /home/thanhvo/Documents/Eye-Tracking/src/dlib/dlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

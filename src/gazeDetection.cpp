@@ -38,7 +38,7 @@ double get_conversion_factor (dlib::full_object_detection shape, FacePose* face_
 	beta = sqrt(temp1 + temp2)/((double)(magnitude_normal*fabs(n3)));
 	beta = 1.0/((double) beta);
 
-	std::cout<<"Beta : "<<beta<<std::endl;
+	//std::cout<<"Beta : "<<beta<<std::endl;
 	return beta;
 }
 

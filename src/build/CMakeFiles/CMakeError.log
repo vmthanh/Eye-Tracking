@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp
+Change Dir: /home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fb775/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fb775.dir/build.make CMakeFiles/cmTC_fb775.dir/build
-make[1]: Entering directory '/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb775.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_fb775.dir/CheckSymbolExists.c.o   -c /home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_fb775
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb775.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_fb775.dir/CheckSymbolExists.c.o  -o cmTC_fb775 -rdynamic 
-CMakeFiles/cmTC_fb775.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_86b79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_86b79.dir/build.make CMakeFiles/cmTC_86b79.dir/build
+make[1]: Entering directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86b79.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_86b79.dir/CheckSymbolExists.c.o   -c /home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_86b79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86b79.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_86b79.dir/CheckSymbolExists.c.o  -o cmTC_86b79 -rdynamic 
+CMakeFiles/cmTC_86b79.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_fb775.dir/build.make:97: recipe for target 'cmTC_fb775' failed
-make[1]: *** [cmTC_fb775] Error 1
-make[1]: Leaving directory '/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_fb775/fast' failed
-make: *** [cmTC_fb775/fast] Error 2
+CMakeFiles/cmTC_86b79.dir/build.make:97: recipe for target 'cmTC_86b79' failed
+make[1]: *** [cmTC_86b79] Error 1
+make[1]: Leaving directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_86b79/fast' failed
+make: *** [cmTC_86b79/fast] Error 2
 
-File /home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,64 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp
+Change Dir: /home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_826f6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_826f6.dir/build.make CMakeFiles/cmTC_826f6.dir/build
-make[1]: Entering directory '/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_826f6.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_826f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_826f6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_826f6.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_826f6.dir/CheckFunctionExists.c.o  -o cmTC_826f6 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_89710/fast"
+/usr/bin/make -f CMakeFiles/cmTC_89710.dir/build.make CMakeFiles/cmTC_89710.dir/build
+make[1]: Entering directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89710.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_89710.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_89710
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89710.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_89710.dir/CheckFunctionExists.c.o  -o cmTC_89710 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_826f6.dir/build.make:97: recipe for target 'cmTC_826f6' failed
-make[1]: *** [cmTC_826f6] Error 1
-make[1]: Leaving directory '/home/minhthanh/Documents/VISION/eyeGaze_v2/eye-gaze/src/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_826f6/fast' failed
-make: *** [cmTC_826f6/fast] Error 2
+CMakeFiles/cmTC_89710.dir/build.make:97: recipe for target 'cmTC_89710' failed
+make[1]: *** [cmTC_89710] Error 1
+make[1]: Leaving directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_89710/fast' failed
+make: *** [cmTC_89710/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b66d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b66d.dir/build.make CMakeFiles/cmTC_4b66d.dir/build
+make[1]: Entering directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b66d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_4b66d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4b66d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b66d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv    CMakeFiles/cmTC_4b66d.dir/CheckFunctionExists.c.o  -o cmTC_4b66d -rdynamic /usr/lib/liblapack.so 
+CMakeFiles/cmTC_4b66d.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sgesv'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4b66d.dir/build.make:98: recipe for target 'cmTC_4b66d' failed
+make[1]: *** [cmTC_4b66d] Error 1
+make[1]: Leaving directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4b66d/fast' failed
+make: *** [cmTC_4b66d/fast] Error 2
+
+
+Determining if the function sgetrf_single exists failed with the following output:
+Change Dir: /home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed310/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed310.dir/build.make CMakeFiles/cmTC_ed310.dir/build
+make[1]: Entering directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed310.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=sgetrf_single   -o CMakeFiles/cmTC_ed310.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ed310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed310.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgetrf_single    CMakeFiles/cmTC_ed310.dir/CheckFunctionExists.c.o  -o cmTC_ed310 -rdynamic /usr/lib/libcblas.so 
+CMakeFiles/cmTC_ed310.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sgetrf_single'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ed310.dir/build.make:98: recipe for target 'cmTC_ed310' failed
+make[1]: *** [cmTC_ed310] Error 1
+make[1]: Leaving directory '/home/thanhvo/Documents/Eye-Tracking/src/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ed310/fast' failed
+make: *** [cmTC_ed310/fast] Error 2
 
 

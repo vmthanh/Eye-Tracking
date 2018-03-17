@@ -34,10 +34,13 @@ struct FacePose {
 
 	double normal[3];	//Vector for storing Facial normal
 
-	double yaw, pitch;
+	double yaw, pitch, roll;
 
 	double kalman_pitch, kalman_yaw;
 	double kalman_pitch_pre, kalman_yaw_pre;
+
+	cv::Point pointer_2d;
+	cv::Point pointer_2d_kalman;
 
 	void assign(FaceFeatures* f, FaceData* d);
 };
